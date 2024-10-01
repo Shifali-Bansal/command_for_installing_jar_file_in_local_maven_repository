@@ -11,12 +11,12 @@ mvn install:install-file \
   -Dpackaging=jar
 
 
-- **`mvn install:install-file`**: This tells Maven to install a file directly into your local repository.
-- **`-Dfile=/path/to/your-jar.jar`**: Replace `/path/to/your-jar.jar` with the actual path to the JAR file you want to install.
-- **`-DgroupId=com.example`**: Specify the group ID for the artifact. This is often structured like a domain name (e.g., `com.example`).
-- **`-DartifactId=your-artifact-id`**: Specify a unique artifact ID for your JAR. This is the name under which the JAR will be stored.
-- **`-Dversion=1.0`**: Set the version number for the artifact.
-- **`-Dpackaging=jar`**: Specify the packaging type (in this case, it’s a JAR).
+- ** mvn install:install-file`**: This tells Maven to install a file directly into your local repository.
+- ** -Dfile=/path/to/your-jar.jar`**: Replace `/path/to/your-jar.jar` with the actual path to the JAR file you want to install.
+- ** -DgroupId=com.example`**: Specify the group ID for the artifact. This is often structured like a domain name (e.g., `com.example`).
+- ** -DartifactId=your-artifact-id`**: Specify a unique artifact ID for your JAR. This is the name under which the JAR will be stored.
+- ** -Dversion=1.0`**: Set the version number for the artifact.
+- ** -Dpackaging=jar`**: Specify the packaging type (in this case, it’s a JAR).
 
 ### Example
 
